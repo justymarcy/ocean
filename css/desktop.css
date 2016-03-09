@@ -1,0 +1,454 @@
+@font-face {
+  src: url('../font/baron_neue_bold.otf');
+  font-family: baron;
+}
+
+
+
+.container {
+  overflow: hidden;
+}
+
+#scene {
+  position: relative;
+  width: 80%;
+}
+
+#scene1 {
+  position:relative;
+  width:80%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ----------------- START ----------------- */
+
+.title {
+  font-family:baron;
+  width: 762px;
+  font-size:80px;
+  color: #416d82;
+  text-align: center;
+  margin:0 auto;
+  padding-top:150px;
+  padding-bottom:25px;
+}
+
+
+
+#begin {
+  display: block;
+  font-family: baron;
+  font-size: 14px;
+  width:120px;
+  color:#ffffff;
+  margin:0 auto;
+  text-align:center;
+  letter-spacing: 4.5px;
+  background:#9ec9cc;
+  color:#fff;
+  padding:14px;
+  text-decoration: none;
+}
+
+#begin a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#begin:hover {
+  cursor: click;
+  background:#416d82;
+  color: #fff;
+}
+
+
+#begin:active {
+  cursor: click;
+  background: #9ec9cc;
+  color: #fff;
+  text-decoration: none;
+}
+
+#start {
+  position: relative;
+  background: #d3f2f4;
+  z-index: 3;
+}
+
+#diver {
+  position:relative;
+  top:559px;
+  margin-left:10%;
+  z-index: 3;
+}
+
+.wedge {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  background: #9ec9cc;
+  z-index:2;
+}
+
+.layer {
+  width: 100%;
+}
+
+#cloud1 {
+  position: relative;
+  top: 70px;
+  left: 20%;
+}
+
+#cloud2 {
+  position: relative;
+  top: 350px;
+  left: 450%;
+}
+
+#cloud3 {
+  position: relative;
+  top: 450px;
+  left: 400%;
+}
+
+#scuba {
+  position:fixed;
+  left:40%;
+  top:620px;
+  z-index: 1;
+}
+
+#sun {
+  position: relative;
+  top:30px;
+  left:67%;
+}
+
+
+/* ----------------- ONE ----------------- */
+
+#one {
+  background: #71a3aa;
+}
+
+#jellyfish1 {
+  position: relative;
+  top: 1000px;
+  left: 20%; 
+}
+
+#jellyfish2 {
+  position: relative;
+  top: 950px;
+  left: 69%;
+}
+
+#jellyfish3 {
+  position: relative;
+  top: 1130px;
+  left: 160%;
+}
+
+#yellowfish {
+  position: relative;
+  top:100px;
+  left:70%;
+  z-index: 1;
+}
+
+#yellowfish2 {
+  position: relative;
+  top:145px;
+  left:75%;
+  z-index: 1;
+}
+
+#yellowfish3 {
+  position: relative;
+  top:245px;
+  left:78%;
+  z-index: 1;
+}
+
+
+/* ----------------- TWO ----------------- */
+
+#two{
+  background: #4a818e;
+}
+
+#rock1 {
+  position:relative;
+  top:280px;
+  left:0px;
+}
+
+#rock2 {
+  position:relative;
+  top:980px;
+  left:0px;
+}
+
+#rock3 {
+  position:relative;
+  top:1200px;
+  float:right;
+}
+
+#seaweed1 {
+  position:relative;
+  top:1800px;
+  float:right;
+}
+
+#seaweed2 {
+  position:relative;
+  top:1950px;
+  left:490%;
+}
+
+/* ----------------- THREE ----------------- */
+
+#three {
+  background: #406572;
+}
+
+#squid {
+  position: relative;
+  top:3200px;
+  left:400%;
+}
+
+/* ----------------- FOUR ----------------- */
+
+#four {
+  background: #37545e;
+}
+
+#hammerhead {
+  position: relative;
+  top:2350px;
+  left:50%;
+}
+
+/* ----------------- FIVE ----------------- */
+
+#five {
+  background: #324249;
+}
+
+/* ----------------- SIX ----------------- */
+
+#six {
+  background: #2b363a;
+}
+
+/* ----------------- SEVEN ----------------- */
+
+#seven {
+  background: #212728;
+}
+
+#whale {
+  position:relative;
+  top:5200px;
+  left:200%;
+}
+
+/* ----------------- EIGHT ----------------- */
+
+#eight {
+  background: #141919;
+}
+
+#narwhal1 {
+  position: relative;
+  margin-left: 110%;
+  top:4300px;
+}
+
+#narwhal2 {
+  position: relative;
+  margin-left: 128%;
+  top:4440px;
+}
+
+#rock4 {
+  position:relative;
+  z-index: 3;
+  top:0px;
+  left:0px;
+}
+
+#eel {
+  position: relative;
+  left:0px;
+  top:6350px;
+  z-index: 2;
+}
+
+/* ----------------- FINISH ----------------- */
+
+#finish {
+  background: #060707;
+}
+
+.floor {
+  width: 100%;
+  height: 140px;
+  background: #353738;
+}
+
+#trunk {
+  position:relative;
+  margin-left: 30%;
+  top:560px;
+}
+
+#trunk:hover {
+  cursor:click;
+}
+
+#arrow {
+  width: 0; 
+  height: 0; 
+  border-bottom: 27px solid transparent;  /* left arrow slant */
+  border-top: 27px solid transparent; /* right arrow slant */
+  border-right: 27px solid #416d82; /* bottom, add background color here */
+  font-size: 0;
+  line-height: 0;
+  position: relative;
+  top: 640px;
+  left: 10%;
+}
+
+#bubbles {
+  position: relative;
+  left:40%;
+  top:7100px;
+}
+
+#seaweed3 {
+  position: relative;
+  left:440%;
+  top:7000px;
+}
+
+/* #carrot {
+  position:relative;
+  left: 37%;
+  top:125px;
+}
+*/
+
+#text {
+  font-family:baron;
+  position:relative;
+  font-size:80px;
+  color: #416d82;
+  text-align: center;
+  margin:0 auto;
+  top:0px; /* you set this to 6000px, placing the text WAY down at the bottom for nobody to see */
+}
+
+#pic {
+  width: 275px;
+  height: 275px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 15px; /* this was set to 6500px */
+  left: 300px;
+}
+
+#reset {
+  display:block;
+  font-family: baron;
+  font-size: 14px;
+  width:130px;
+  color:#ffffff;
+  text-align:center;
+  letter-spacing: 4.5px;
+  background:#9ec9cc;
+  color:#fff;
+  margin:0 auto;
+  padding:14px;
+  text-decoration: none;
+  top:60px;
+}
+
+#reset a {
+  text-decoration: none;
+  color:#fff;
+}
+
+#reset:hover {
+  cursor:click;
+  background:#416d82;
+  color:#fff;
+}
+
+
+#reset:active {
+  cursor:click;
+  background:#9ec9cc;
+  color:#fff;
+  text-decoration: none;
+}
+
+
+
+/* ----------------- Start Grid for desktop screens ----------------- */
+
+@media (min-width: 0px) {
+
+.container {
+  position: relative;
+  width: 100%; /* max width of content */
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; }
+
+  .column,
+  .columns {
+    margin-left: 1.055%; /* column gutter */
+    height: 725px;
+    float: left;
+    box-sizing: border-box;
+    }    
+  
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; } /* prevents first column from acquiring a gutter on its left: typography 101 */
+
+  .one.column,
+  .one.columns                    { width: 19.140625%;  }
+  .two.columns                    { width: 39.375%; }
+  .three.columns                  { width: 59.609325%;           }
+  .four.columns                   { width: 79.8437%; }
+  .five.columns                   { width: 100%; margin-left: 0; }
+
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+
+}
+/* ----------------- End Grid for desktop screens ----------------- */
+
+/* ----------------- Misc Grid Commands ----------------- */
+
+/* Self Clearing Goodness: Fixes Issues with Rows Overlapping due to flow: left; */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
